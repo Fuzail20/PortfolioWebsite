@@ -16,7 +16,7 @@ const Home = () => {
           >
             <Box
               component="img"
-              src={`${import.meta.env.BASE_URL}images/profile-photo.jpg`}
+              src="/PortfolioWebsite/images/profile-photo.jpg"
               alt="Fuzail Vhora"
               sx={{
                 width: 250,
