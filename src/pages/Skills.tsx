@@ -1,4 +1,5 @@
-import { Container, Typography, Box, Grid, LinearProgress } from '@mui/material';
+import { Container, Typography, Box, LinearProgress } from '@mui/material';
+import Grid from '@mui/material/Grid';
 import { motion } from 'framer-motion';
 
 const skillsData = [

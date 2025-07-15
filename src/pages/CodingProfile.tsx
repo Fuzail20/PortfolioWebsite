@@ -1,33 +1,33 @@
-import { Container, Typography, Box, Grid, Card, CardContent, Button } from '@mui/material';
+import { Container, Typography, Box, Card, CardContent, Button } from '@mui/material';
 import { motion } from 'framer-motion';
 import CodeIcon from '@mui/icons-material/Code';
 import StarIcon from '@mui/icons-material/Star';
+import Grid from '@mui/material/Grid';
 
 const codingProfiles = [
   {
     platform: 'LeetCode',
-    username: 'fuzailvhora',
+    username: 'Fuzail20',
     rating: '1800+',
-    problemsSolved: '200+',
-    link: 'https://leetcode.com/fuzailvhora',
+    problemsSolved: '250+',
+    link: 'https://leetcode.com/u/Fuzail20/',
     achievements: [
-      'Consistent contest rating above 1800',
-      'Solved 200+ problems across various categories',
+      'Solved 250+ problems across various categories',
       'Strong in Data Structures and Algorithms',
     ],
   },
-  {
-    platform: 'CodeChef',
-    username: 'fuzailvhora',
-    rating: '4 Star',
-    problemsSolved: '150+',
-    link: 'https://www.codechef.com/users/fuzailvhora',
-    achievements: [
-      '4 Star Coder',
-      'Participated in multiple coding contests',
-      'Strong problem-solving skills',
-    ],
-  },
+  // {
+  //   platform: 'CodeChef',
+  //   username: 'fuzailvhora',
+  //   rating: '4 Star',
+  //   problemsSolved: '150+',
+  //   link: 'https://www.codechef.com/users/fuzailvhora',
+  //   achievements: [
+  //     '4 Star Coder',
+  //     'Participated in multiple coding contests',
+  //     'Strong problem-solving skills',
+  //   ],
+  // },
   {
     platform: 'HackerRank',
     username: 'fuzailvhora',
@@ -36,7 +36,6 @@ const codingProfiles = [
     link: 'https://www.hackerrank.com/fuzailvhora',
     achievements: [
       '5 Star in Problem Solving',
-      '5 Star in Java',
       'Certified in Data Structures',
     ],
   },

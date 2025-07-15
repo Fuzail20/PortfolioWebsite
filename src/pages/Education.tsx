@@ -10,17 +10,23 @@ import SchoolIcon from '@mui/icons-material/School';
 
 const educationData = [
   {
-    year: '2014 - 2018',
+    year: '2018 - 2022',
     institution: 'National Institute of Technology, Warangal',
     degree: 'Bachelor of Technology in Computer Science',
     details: 'CGPA: 8.01',
   },
   {
-    year: '2012 - 2014',
+    year: '2016 - 2018',
     institution: 'High School',
     degree: 'Higher Secondary Education',
     details: 'Assistant Headboy, Perfect SAT Score (2400/2400) in Maths, Physics & Chemistry',
   },
+  {
+    year: '2014 - 2016',
+    institution: 'Secondary School',
+    degree: 'Secondary Education',
+    details: 'Perfect Score in Class 10 (CGPA 10.0). Awarded scholarship for academic excellence.',
+  }
 ];
 
 const Education = () => {

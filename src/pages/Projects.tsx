@@ -1,4 +1,5 @@
-import { Container, Typography, Box, Grid, Card, CardContent, Chip, Button } from '@mui/material';
+import { Container, Typography, Box, Card, CardContent, Chip, Button } from '@mui/material';
+import Grid from '@mui/material/Grid';
 import { motion } from 'framer-motion';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LaunchIcon from '@mui/icons-material/Launch';
@@ -43,7 +44,7 @@ const Projects = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <Typography variant="h3" component="h1" gutterBottom align="center">
+          <Typography variant="h3" gutterBottom align="center">
             Projects
           </Typography>
           <Grid container spacing={4}>
@@ -66,7 +67,7 @@ const Projects = () => {
                     }}
                   >
                     <CardContent>
-                      <Typography variant="h5" component="h2" gutterBottom>
+                      <Typography variant="h5" gutterBottom>
                         {project.title}
                       </Typography>
                       <Typography variant="body1" color="text.secondary" paragraph>

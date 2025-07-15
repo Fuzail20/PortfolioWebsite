@@ -1,5 +1,4 @@
 import { AppBar, Toolbar, Typography, Button, Box } from '@mui/material';
-import { motion } from 'framer-motion';
 import DownloadIcon from '@mui/icons-material/Download';
 
 const Navbar = () => {
