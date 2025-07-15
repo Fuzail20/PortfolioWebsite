@@ -17,7 +17,7 @@ const Home = () => {
           >
             <Box
               component="img"
-              src="/PortfolioWebsite/images/profile-photo.jpg"
+              src="/images/profile-photo.jpg"
               alt="Fuzail Vhora"
               sx={{
                 width: 250,
