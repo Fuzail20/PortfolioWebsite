@@ -17,13 +17,13 @@ const educationData = [
   },
   {
     year: '2016 - 2018',
-    institution: 'High School',
+    institution: 'DPS Jeddah',
     degree: 'Higher Secondary Education',
     details: 'Assistant Headboy, Perfect SAT Score (2400/2400) in Maths, Physics & Chemistry',
   },
   {
     year: '2014 - 2016',
-    institution: 'Secondary School',
+    institution: 'DPS Jeddah',
     degree: 'Secondary Education',
     details: 'Perfect Score in Class 10 (CGPA 10.0). Awarded scholarship for academic excellence.',
   }
